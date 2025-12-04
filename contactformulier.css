@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
+/*hiermee importeer je een ander letterltype om te gebruiken in de code*/
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* past het font type aan*/
+    font-family: "JetBrains Mono", monospace; /* past het font type aan*/
     display: flex; /* zorgd ervoor dat elementen naast elkaar staan*/
     flex-direction: column;     /* Dit zet de elementen verticaal neer */
     justify-content: flex-start;/* lijnt de items uit */
     align-items: center;        /* zet alles in het midden neer horizontaal */
     min-height: 100vh;          /* hoogte */
     margin: 0;
-    background: linear-gradient(rgb(171, 169, 192),rgb(204, 202, 243)) /* dit geeft je pagina een gradiënt effect */
+    background: linear-gradient(rgb(171, 169, 192),rgb(214, 212, 255)) /* dit geeft je pagina een gradiënt effect */
 }
 
 h1{
@@ -21,6 +23,8 @@ h1{
     width: 400px;        /* past de breedte aan */
     box-sizing: border-box;
     display: block;      /* Zorgt dat alles onder elkaar staat */
+    border-radius: 2px;
+    border-width: 0.5;
 }
 
 

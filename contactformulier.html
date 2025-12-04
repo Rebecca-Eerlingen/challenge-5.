@@ -7,11 +7,11 @@
 </head>
 <body class="body">
 
-<h1>Neem contact met ons op!</h1>
+    <h1>Neem contact met ons op</h1>
 
 <form>
     <div class="EmailBox">
-        <label for="mail">E-mail:</label>
+        <label for="mail">E-mail*</label>
         <input 
             id="emailAddress"
             type="email"
@@ -19,8 +19,17 @@
             placeholder="username@Gmail.com"
             title="Vul hier uw email address in." />
     </div>
+        <div class="EmailBox">
+        <label for="tel">Telefoonnummer*</label>
+        <input 
+            id="emailAddress"
+            type="tel"
+            required
+            placeholder="+31 6 12345678"
+            title="Vul hier uw telefoonnummer in" />
+    </div>
     <div id="voorEnAchternaam">
-        <label for="volledigeNaam"> Voor en achternaam:</label>
+        <label for="volledigeNaam"> Voor en achternaam*</label>
         <input
             id="naamDoos" 
             type="naam" 
@@ -30,13 +39,13 @@
     </div>
 
     <div class="messageBox">
-        <label for="message">bericht:</label><br />
+        <label for="message">Toelichting*</label><br/>
         <textarea
             id="message"
             cols="80"
             rows="8"
-            required
-            placeholder="message"></textarea>
+            required>
+        </textarea>
     </div>
         <input id="verstuurKnop" type="submit" value="verstuur" />
 
@@ -44,5 +53,8 @@
 
 </form>
 
+    <footer>
+            
+    </footer>
 </body>
 </html>
