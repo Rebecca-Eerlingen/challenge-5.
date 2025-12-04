@@ -1,0 +1,113 @@
+/* Algemene stijl */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #f5f7fa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.hero {
+    background: url("https://emarathon.eu/wp-content/uploads/2022/04/d50_8603-scaled-1.jpg") center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #707070;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #303030;
+}
+
+/* FEATURES */
+
+.features {
+    padding: 60px 0;
+    background: #ffffff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.feature-box {
+    background: #c9c9c9;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    background: #b3b3b3;
+}
+
+.feature-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #707070;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* MOBIEL — responsive */
+@media (max-width: 768px) {
+    .logo, .nav {
+        float: none;
+        text-align: center;
+    }
+
+    .nav {
+        margin-top: 15px;
+    }
+
+    .nav a {
+        margin: 0 10px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+}
