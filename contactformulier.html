@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>contactformulier</title>
+    <link rel="stylesheet" href="contactformulier.css">
+</head>
+<body class="body">
+
+<h1>Neem contact met ons op!</h1>
+
+<form>
+    <div class="EmailBox">
+        <label for="mail">E-mail:</label>
+        <input 
+            id="emailAddress"
+            type="email"
+            required
+            placeholder="username@Gmail.com"
+            title="Vul hier uw email address in." />
+    </div>
+    <div id="voorEnAchternaam">
+        <label for="volledigeNaam"> Voor en achternaam:</label>
+        <input
+            id="naamDoos" 
+            type="naam" 
+            title="voer hier uw volledige naam in"
+            required
+            />
+    </div>
+
+    <div class="messageBox">
+        <label for="message">bericht:</label><br />
+        <textarea
+            id="message"
+            cols="80"
+            rows="8"
+            required
+            placeholder="message"></textarea>
+    </div>
+        <input id="verstuurKnop" type="submit" value="verstuur" />
+
+    <!-- ToDo: Maak hier de uitbreidingen -->
+
+</form>
+
+</body>
+</html>

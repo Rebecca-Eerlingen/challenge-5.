@@ -1,0 +1,44 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'; /* past het font type aan*/
+    display: flex; /* zorgd ervoor dat elementen naast elkaar staan*/
+    flex-direction: column;     /* Dit zet de elementen verticaal neer */
+    justify-content: flex-start;/* lijnt de items uit */
+    align-items: center;        /* zet alles in het midden neer horizontaal */
+    min-height: 100vh;          /* hoogte */
+    margin: 0;
+    background: linear-gradient(rgb(171, 169, 192),rgb(204, 202, 243)) /* dit geeft je pagina een gradiënt effect */
+}
+
+h1{
+    text-align: center;     /* zet de text in het midden neer */
+    margin-top: 20px;       /* De ruimte tussen te top van het scherm en de tekst */
+}
+
+/* Alle tekstvelden en de textarea even breed */
+#emailAddress,
+#naamDoos,
+#message {
+    width: 400px;        /* past de breedte aan */
+    box-sizing: border-box;
+    display: block;      /* Zorgt dat alles onder elkaar staat */
+}
+
+
+#voorEnAchternaam{
+    flex-direction: column;
+    width: 400px;
+}
+
+#verstuurKnop{
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: rgb(131, 129, 129);
+    height: 40px;
+    width: 75px;
+    background-color: rgb(255, 255, 255);
+}
+
+#verstuurKnop:hover{
+    background-color: rgb(230, 230, 230);
+    border-color: rgb(0, 0, 0);
+}
