@@ -4,7 +4,7 @@ body{
 }
 
 .sideBar{
-    background-color: rgba(87, 86, 86, 0.479);
+    background-color: #c7c6c69f;
     border-width: 2px;
     border-color: black;
     height: 100vh;
@@ -24,9 +24,12 @@ body{
     border-radius: 5px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+.topImage{
+    width: ;
+}
+
 #bedrijfsNaam{
-    font-family: "JetBrains Mono", monospace;
+    font-family: Arial, sans-serif;
     position: absolute;
     top: 0px;
     right: 80px;
@@ -64,5 +67,11 @@ ul{
 
 .list{
     font-size: 18px;
+    color: #222;
+}
+
+.list :hover{
+    color: #000000;
+    font-size: 20px;
 }
 
