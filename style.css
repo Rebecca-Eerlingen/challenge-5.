@@ -87,10 +87,76 @@ body {
 .footer {
     background: #707070;
     color: white;
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    padding: 25px 0;
     margin-top: 40px;
+    display: flex;
+    text-decoration: none;
 }
+.footer ul{
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.footer li{
+    margin: 5px;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer h4{
+    margin-left: 50px;
+}
+
+.footerCol{
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.socials{
+    margin-right: auto; 
+}
+
+.socials input{
+    margin-left: 50px;
+}
+
+.socials i{
+    font-size: 32px;
+}
+
+.social i:hover{
+    font-size: 40px;
+}
+
+
+/* footer mobies responsive */
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .footer h4 {
+        margin-left: 0;
+    }
+
+    .footerCol {
+        margin-left: 0;
+    }
+
+    .socials input {
+        margin-left: 0;
+    }
+}
+
 
 /* MOBIEL — responsive */
 @media (max-width: 768px) {
@@ -110,4 +176,85 @@ body {
     .hero h2 {
         font-size: 32px;
     }
+}
+
+/* sidebar */
+
+.sideBar{
+    background-color: #c7c6c6;
+    border-width: 2px;
+    border-color: black;
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    right: -220px;
+    border-radius: 10px;
+    transition: 0.3s;
+    overflow: hidden;
+    top: 0px;
+}
+
+#logo{
+    position: absolute;
+    top: 10px;     
+    right: 10px;   
+    max-width: 60px;  
+    border-radius: 5px;
+}
+
+#bedrijfsNaam{
+    font-family: Arial, sans-serif;
+    position: absolute;
+    color: #000000;
+    top: 20px;
+    right: 89px;
+}
+
+#searchBar{
+    position: absolute;
+    top: 50px;
+    width: 120px;
+    right: 92px;
+    border-radius: 5px;
+}
+
+.bx {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.bxr{
+    position: absolute;
+    top: 54px;
+    left: 10px;
+}
+
+.sideBar:hover{
+    right:0%
+}
+
+.listItems{
+    text-decoration: none;
+    color: black;
+}
+
+.sideBar ul{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 75px;
+    line-height: 110px;
+
+}
+
+.list{
+    font-size: 18px;
+    position: relative;
+    left: 40px;
+    color: #222;
+}
+
+.list :hover{
+    color: #000000;
+    font-size: 20px;
 }

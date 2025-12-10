@@ -56,7 +56,7 @@ p{
 }
 /*sidebar*/
 .sideBar{
-    background-color: #c7c6c69f;
+    background-color: #c7c6c6;
     border-width: 2px;
     border-color: black;
     height: 100vh;
@@ -168,4 +168,31 @@ p{
 
 .socials i{
     font-size: 32px;
+}
+
+.social i:hover{
+    font-size: 40px;
+}
+
+/* footer mobies responsive */
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .footer h4 {
+        margin-left: 0;
+    }
+
+    .footerCol {
+        margin-left: 0;
+    }
+
+    .socials input {
+        margin-left: 0;
+    }
 }
