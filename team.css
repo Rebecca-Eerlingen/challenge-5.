@@ -1,7 +1,5 @@
 /*Algemene stijl*/
 
-
-
 body {
     font-family: Arial, sans-serif;
     color: black;
@@ -13,7 +11,6 @@ body {
     max-width: 1200px;
     margin: auto;
 }
-
 
 .team {
     background: url("https://emarathon.eu/wp-content/uploads/2022/04/d50_8603-scaled-1.jpg") center;

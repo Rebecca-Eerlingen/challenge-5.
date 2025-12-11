@@ -200,6 +200,10 @@ body {
     font-size: 40px;
 }
 
+.locatie img{
+    max-width: 250px;
+    
+}
 
 /* footer mobiel responsive */
 @media (max-width: 768px) {

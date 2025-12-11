@@ -133,6 +133,10 @@ body {
     font-size: 40px;
 }
 
+.locatie img{
+    max-width: 250px;
+}
+
 
 /* footer mobies responsive */
 
